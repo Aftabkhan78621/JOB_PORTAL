@@ -61,6 +61,67 @@ JOB_PORTAL/
 │── FRONTEND/
 │── .gitignore
 │── README.md
+JOB_PORTAL/
+│
+│── BACKEND/
+│ ├── Controllers/
+│ ├── middlewares/
+│ ├── models/
+│ ├── routes/
+│ ├── utils/
+│ ├── index.js
+│ ├── package.json
+│ └── README.md
+│
+│── FRONTEND/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── redux/
+│ │ ├── Hooks/
+│ │ └── utils/
+│ ├── package.json
+│ ├── vite.config.ts
+│ └── README.md
+│
+│── .gitignore
+│── README.md
+
+🔧 Backend Setup
+cd BACKEND
+npm install
+
+
+Environment Variables
+PORT=8000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+CLOUDINARY_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+npm run dev
+
+🔐 Security Notes
+.env files are ignored using .gitignore
+node_modules are never pushed to GitHub
+Sensitive credentials are kept secure
+
+🚀 Deployment Plan
+Frontend → Vercel
+Backend → Render
+Same GitHub repository used with different root directories
+
+
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Aftabkhan78621/JOB_PORTAL.git
+cd JOB_PORTAL
+
 
 ## 🎯 Purpose of This Project
 
@@ -79,5 +140,6 @@ Final Year B.Tech Student
 
 If you find this project useful, feel free to ⭐ star the repository
 and explore the codebase.
+
 
 
