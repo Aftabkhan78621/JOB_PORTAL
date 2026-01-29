@@ -1,0 +1,6 @@
+{
+  "files.autoSave": "off",
+  "files.autoSaveDelay": 1000,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "editor.inlineSuggest.suppressSuggestions": true
+}
