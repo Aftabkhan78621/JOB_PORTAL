@@ -1,4 +1,13 @@
+# root
 node_modules
+
+# backend
 BACKEND/node_modules
+BACKEND/.env
+
+# frontend
 FRONTEND/node_modules
-.env
+
+# build
+dist
+build
